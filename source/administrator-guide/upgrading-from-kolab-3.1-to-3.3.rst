@@ -63,7 +63,7 @@ Kolab 3.3 compared to Kolab 3.1 ships the following additional components:
     You can now create share folders within the kolab-webadmin and manage 
     and enforce initial access control lists for those folders.
 
-#.  **Organizatioal Unit Editor (kolab-webadmin)**
+#.  **Organizational Unit Editor (kolab-webadmin)**
 
     Those installations that make use of bigger LDAP Directories or
     manage corporation addressbooks within LDAP can now make use of the OU
@@ -198,7 +198,7 @@ For Debian
 
     # :command:`cp /etc/kolab-freebusy/config.ini.dpkg-dist /etc/kolab-freebusy/config.ini`
 
-Recreatae the configuation:
+Recreate the configuation:
 
  .. parsed-literal::
 
@@ -360,7 +360,7 @@ Open the mysql cli:
 
     # :command:`mysql -u root -p -D kolab`
 
-and apply the followin changes: The tables will be deleted and recreated.
+and apply the following changes: The tables will be deleted and recreated.
 Don't forget: if you've made changes to shared folder types, please update
 them manually!
 
